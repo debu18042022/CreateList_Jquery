@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <script src="createlist.js"></script>
+
+    <title>Document</title>
+
+</head>
+
+<body>
+
+    <div class="parent-div">
+
+        <label for="text">Enter text for Category</label>
+
+        <input type="text" id="text">
+
+        <button class="parent-button">Add Category</button>
+
+        <ul class="parent-ul" id="p_ul">
+
+            <li hidden><a href="#">Category</a><button class="child-button">+</button></li>
+
+            <ul id="childp_ul">
+
+                <li class="child-ul" hidden><a href="#">Sub-Category</a><button class="child-button">+</button></li>
+
+            </ul>
+
+        </ul>
+
+    </div>
+
+</body>
+
+</html>
